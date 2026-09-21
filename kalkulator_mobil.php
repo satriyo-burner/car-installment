@@ -128,9 +128,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quidem incidunt p
                 </select>
               </div>
 
-              <div class="mb-4">
+              <div class="mb-5">
                 <label>Tenor</label>
-                <div class="d-flex flex-wrap gap-3">
+                <div class="d-flex gap-2">
                   <div>
                     <input type="radio" name="tenor" id="1"
                       value="1" required>
@@ -172,11 +172,11 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quidem incidunt p
             $angsuran = (($harga + ($harga * 20 / 100)) - $dp) / ($tenor * 12);
         ?>
 
-          <div class="card">
-            <div class="card-body">
-              <h4 class="mb-4">
+          <div>
+            <div>
+              <h3 class="mb-5">
                 Hasil Perhitungan
-              </h4>
+              </h3>
               <p>
                 Harga Mobil:
                 <?= $harga ?>
